@@ -11,7 +11,12 @@
  * @flow
  */
 import { app, BrowserWindow } from 'electron';
+import express from 'express';
 import MenuBuilder from './menu';
+
+const expressApp = express();
+expressApp.get('/', (req, res) => res.send('Hello World!'));
+expressApp.listen(3000, () => console.log('Example app listening on port 3000!'));
 
 let mainWindow = null;
 
