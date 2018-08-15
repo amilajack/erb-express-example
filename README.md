@@ -1,6 +1,8 @@
 erb-express-example
 ==================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amilajack/erb-express-example.svg)](https://greenkeeper.io/)
+
 **An example of erb with express (express 4 in this case)**
 
 ## Setup
